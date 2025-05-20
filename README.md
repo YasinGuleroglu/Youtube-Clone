@@ -32,9 +32,10 @@ RapidAPI (YouTube API integration)
 CSS / Tailwind / Styled Components (based on your setup)
 
 ----------------------------------------------------------------------------
-
+📸 Screenshots
 <img width="1423" alt="Image" src="https://github.com/user-attachments/assets/bd499b3e-1790-44bb-b9db-5526939b5edc" />
 ----------------------------------------------------------------------------
+
 🔮 Future Improvements
 
 ✅ Enable comments and like/dislike section
