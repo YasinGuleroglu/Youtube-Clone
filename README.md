@@ -2,6 +2,7 @@ A full-featured YouTube Clone built with React and RapidAPI, designed to mimic t
 ----------------------------------------------------------------------------
 📸 Screenshots
 
+
 <img width="1440" alt="Image" src="https://github.com/user-attachments/assets/bd9a215c-d1b7-47b6-9adc-7ae2d006ac2f" />
 
 ----------------------------------------------------------------------------
@@ -33,6 +34,8 @@ CSS / Tailwind / Styled Components (based on your setup)
 
 ----------------------------------------------------------------------------
 📸 Screenshots
+
+
 <img width="1423" alt="Image" src="https://github.com/user-attachments/assets/bd499b3e-1790-44bb-b9db-5526939b5edc" />
 ----------------------------------------------------------------------------
 
