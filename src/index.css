@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+body {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.87);
+}
+.videos {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 50px;
+}
+.videos::-webkit-scrollbar {
+  background-color: black;
+  width: 10px;
+}
+.videos::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 4px;
+}
+.page-content {
+  max-width: 1600px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto 400px;
+  gap: 40px;
+  padding: 40px 60px;
+}
+
+@media (max-width: 1200px) {
+  .page-content {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+  }
+}
+
+
+.row {
+  display: grid;
+  grid-template-columns: 168px auto;
+  gap: 20px;
+}
+
+.row .channel-title,
+.row .pp,
+.row .view {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  .row {
+    grid-template-columns: 1fr 3fr;
+  }
+}
+.loader-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
